@@ -2,12 +2,12 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 
-MODEL_PATH = "/app/plant_disease_cnn.h5"
+MODEL_PATH = "/deployment/plant_disease_cnn.h5"
 # If using a Keras/TensorFlow model:
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 # Load model
-model = load_model('plant_disease_cnn.h5')
+model = load_model('/deployment/plant_disease_cnn.h5')
 
 # Define image size (as used in your model)
 IMG_SIZE = (128, 128)
