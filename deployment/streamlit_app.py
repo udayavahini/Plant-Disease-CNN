@@ -7,7 +7,7 @@ MODEL_PATH = "/app/plant_disease_cnn.h5"
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 # Load model
-model = load_model('/workspaces/Plant-Disease-CNN/notebooks/src/plant_disease_cnn.h5')
+model = load_model('plant_disease_cnn.h5')
 
 # Define image size (as used in your model)
 IMG_SIZE = (128, 128)
