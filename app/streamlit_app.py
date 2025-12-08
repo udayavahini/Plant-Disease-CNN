@@ -3,21 +3,21 @@ import numpy as np
 from PIL import Image
 
 MODEL_PATH = "/workspaces/Plant-Disease-CNN/notebooks/src/plant_disease_cnn.h5"
-# If using a Keras/TensorFlow model:
+
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
-# Load model
+# Loading model
 model = load_model('/workspaces/Plant-Disease-CNN/notebooks/src/plant_disease_cnn.h5')
 
-# Define image size (as used in your model)
+# Defining image size 
 IMG_SIZE = (128, 128)
 
-# List of classes (should match your training order)
+# List of classes 
 CLASSES = ['Bell Pepper - Bacterial spot', 'Bell Pepper - Healthy', 'Potato - Early blight', 'Potato - Late blight', 'Potato - Healthy', 'Tomato - Bacterial spot', 'Tomato - Early blight', 'Tomato - Late blight', 'Tomato - Leaf Mold', 'Tomato - Septoria leaf spot', 'Tomato - Spider Mites', 'Tomato - Target Spot', 'Tomato - Yellow Leaf Curl Virus', 'Tomato -  Mosaic Virus', 'Tomato - Healthy']
 
 st.set_page_config(page_title="Plant Doctor AI", layout="wide", page_icon="🌱")
 
-# Farmer's field/rice field at dusk, not vivid forest. Swap to any relevant crop photo if desired
+# Design
 st.markdown("""
 <style>
 body {
