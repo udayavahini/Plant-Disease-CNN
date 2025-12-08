@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 
-MODEL_PATH = "/workspaces/Plant-Disease-CNN/notebooks/src/plant_disease_cnn.h5"
+MODEL_PATH = "/app/plant_disease_cnn.h5"
 # If using a Keras/TensorFlow model:
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
