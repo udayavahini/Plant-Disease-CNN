@@ -7,3 +7,8 @@ It covers data preprocessing, model design, and a user-facing interface.
 - `src/`: Source code (data loaders, models)
 - `notebooks/`: Jupyter notebooks for exploration/training
 - `app/`: Streamlit app for interactive demos
+- `deployment/`: Deployment on Streamlit cloud server
+
+## Data Preprocessing
+- Splitting Dataset into Train and Test 
+- 
