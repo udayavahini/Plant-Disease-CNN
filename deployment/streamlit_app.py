@@ -118,6 +118,6 @@ else:
 
 st.markdown("---")
 st.markdown(
-    "<small style='color:#869879;'>This tool aids preliminary diagnosis only as this is a project.</small>", 
+    "<small style='color:#869879;'>This tool aids preliminary diagnosis only.Developed by Udaya Vahini (2482463).</small>", 
     unsafe_allow_html=True
 )
